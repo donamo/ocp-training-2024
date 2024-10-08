@@ -9,3 +9,5 @@ spec:
   containers:
   - image: donamodh/word-picker:v1
     name: work-picker
+  imagePullSecrets:
+  - name: dockerhub

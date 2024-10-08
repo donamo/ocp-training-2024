@@ -1,1 +1,2 @@
-secret/
+secret/dockerconfig.json
+*/__pycache__/
