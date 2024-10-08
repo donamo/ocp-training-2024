@@ -4,6 +4,9 @@ WORKDIR /code
 
 RUN pip install flask
 
+
+ADD options.txt /code/
+
 COPY word_picker.py /code/word_picker.py
 
 ENV FLASK_APP=/code/word_picker.py
