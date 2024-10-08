@@ -1,0 +1,26 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: word-picker-options
+data:
+  custom_options.txt: |
+    Luke Skywalker
+    Darth Vader
+    Princess Leia
+    Han Solo
+    Yoda
+    Obi-Wan Kenobi
+    Chewbacca
+    R2-D2
+    C-3PO
+    Emperor Palpatine
+    Anakin Skywalker
+    Rey
+    Kylo Ren
+    Finn
+    Poe Dameron
+    Lando Calrissian
+    Boba Fett
+    Mace Windu
+    Qui-Gon Jinn
+    Padmé Amidala
